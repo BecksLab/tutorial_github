@@ -1,16 +1,5 @@
 [
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "Summary",
-    "section": "",
-    "text": "Summary\nIn summary, this book has no content whatsoever.",
-    "crumbs": [
-      "Setting Up Github",
-      "Summary"
-    ]
-  },
-  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "Introduction",
@@ -19,6 +8,17 @@
     "crumbs": [
       "What is Github",
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Summary\nIn summary, this book has no content whatsoever.",
+    "crumbs": [
+      "Setting Up Github",
+      "Summary"
     ]
   },
   {
