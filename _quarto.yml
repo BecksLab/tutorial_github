@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "Using Github for Scientific Collaboration"
+  page-navigation: true
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - section: "What is Github"
+        contents:
+          - index.qmd
+          - intro.qmd
+      - section: "Setting Up Github"
+        contents:
+          - summary.qmd
+      - section: "Using Github"
+      - section: "Collaborating with Github"
+  page-footer:     
+    background: primary 
+    right: 
+      - icon: code
+        text: "{{< fa code >}} Source code"
+        href: https://github.com/BecksLab/JuliaTutorials_BecksLab
+
+format:
+  html:
+    theme: [minty, mystyles.scss]
+    toc: true
+
+
+execute:
+  freeze: auto
+
+
+
