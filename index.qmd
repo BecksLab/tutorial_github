@@ -1,17 +1,4 @@
----
-title: "Github: a primer"
-date: now
-author:
-  - name: Xiaoxiao Li
-    orcid: 0000-0002-4029-2162
-  - name: Tanya Strydom
-    orcid: 0000-0001-6067-1349
-
-format:
-    html:
-        embed-resources: true
-title-block-banner: true
----
+# Github: a primer {.unnumbered}
 
 This is a Quarto book.
 
