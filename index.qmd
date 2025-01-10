@@ -1,5 +1,36 @@
 # Github: a primer {.unnumbered}
 
-This is a Quarto book.
+Before we start diving into the all the hows it is probably worth understanding *why* we are interested in using Github. We are probably all to familiar with the challenges that comes with experimenting with or incorporating changes in our work. This often leads to situations where one develops a convoluted file naming process in an attempt of controlling for different the versions of a file that might exist. Git and GitHub provide us with a more structured for of version control that allows for a cleaner and simpler project environment. A good version control system  makes it is easy to share files, collaborate on the same project, and have a track record of changes that are made to a specific file.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## What is Git and GitHub?
+
+Often people equate `GitHub` with version control, however Github is simply a online, cloud-based tool that uses the software `git` to store files and track changes, and git is actually the version control system. This means that git is the software that enables version control and it is possible to use other alternative online tools such as GitLab or bitbucket. However, as GitHub is widely used in industry and academia these tutorials will centre around a GitHUb interface (although the core concepts should still be relevant if using other tools).
+
+## What can GitHub do?
+
+Most often GitHub is associated with programming, however it has uses beyond software development such as: 
+
+- GitHub can be used to host a webpage
+
+- Issues and discussion can be used for project management
+
+- It can be used to streamline collaboration and avoid sending around multiple version of a file
+
+    - Especially if used in conjunction with reproducible reports
+
+- Because GitHub is cloud-based it can act as a back-up of your work
+
+- GitHub can be used for publishing (but not archiving) code
+
+
+::: {.callout-warning title="Archiving"}
+
+#### Code
+
+An increasing number of journals now expect you to archive the code used in your analyses when you publish a paper. Although it is possible to archive a GitHub repository as read-only it is still better to use read-only file archives, such as `figshare` or `zenodo`, as they also have a fixed doi associated with them. Both of these archives will allow you to import code directly from GitHub.
+
+#### Data
+
+GitHub is not optimised for storing or archiving data. It may be possible to store small, unchanging files files there, but large or regularly updated files should be stored in a dedicated data archive such as `osf` or `figshare`.
+:::
+
