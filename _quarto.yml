@@ -11,15 +11,26 @@ book:
   date: now
   favicon: assets/logo.png
   sidebar: 
-    background: "#F5F5F5"
     logo: assets/logo.png
     search: true
   repo-url: https://github.com/BecksLab/tutorial_github
 
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "Gitting Started"
+      chapters: 
+        - basics.qmd
+        - branches.qmd
+        - collaborating.qmd
+    - part: "Github for code"
+      chapters:
+        - collaborating.qmd
+    - part: "Github for project management"
+      chapters:
+        - collaborating.qmd
+    - part: "Github for content hosting"
+      chapters:
+        - collaborating.qmd
 
 
 bibliography: references.bib
