@@ -16,6 +16,10 @@ GitHub is useful for developing your own code, but at some point you might want 
 
 In terms of reviewing and integrating these changes we use a *pull request*
 
+::: {.column-margin}
+![#7: Forktocat *© GitHub, Inc.*](assets/octocats/forktocat.jpg)
+:::
+
 ## Forking a repository
 
 A fork is a copy of somebody’s GitHub repository. You can fork a repo and work independently of the original project. Or if you are collaborating with other people you can stay connected with the original repository via pull requests.

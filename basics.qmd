@@ -17,6 +17,11 @@ Authorisations/configuring got to github
 - VSCode
 - Terminal
 
+
+::: {.column-margin}
+![#94: professortocat_v2 *© GitHub, Inc.*](assets/octocats/Professortocat_v2.png)
+:::
+
 ## Understanding the version control workflow
 
 ### Key terms
