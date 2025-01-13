@@ -1,1 +1,22 @@
 # Understanding branches
+
+Key Terms
+
+branch - a space for making changes to code without affecting the original code
+merge - merge the commits on two branches
+merge conflict - a problem when there are two incompatible versions of a file that you are trying to merge
+main - conventional name of the default branch of your repo
+
+## Why branches are useful
+
+A branch lets you develop code, fix a problem, or test an idea without affecting the original project. A branch is created from an existing branch, usually from the main branch of the project. You can work on a branch, bravely develop code that works or does not work and it does not break the code on the main branch. Basically, you can experiment on your own.
+
+-   Creating dev versions of your work
+-   Allow collaborators to make and propose changes (more in next section)
+-   Provide a space to work on issues/patches
+
+> Note that main branch was previously named master branch, but removed because of the reference to slavery. Because of this change you might find references to the old name when looking for help elsewhere.
+
+## The basics of branching.
+
+> Insert a nice schematic here
