@@ -4,7 +4,27 @@
     "href": "index.html",
     "title": "Using Github for Scientific Collaboration",
     "section": "",
-    "text": "Github: a primer\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Github: a primer\nBefore we start diving into the all the hows it is probably worth understanding why we are interested in using Github. We are probably all to familiar with the challenges that comes with experimenting with or incorporating changes in our work. This often leads to situations where one develops a convoluted file naming process in an attempt of controlling for different the versions of a file that might exist. Git and GitHub provide us with a more structured for of version control that allows for a cleaner and simpler project environment. A good version control system makes it is easy to share files, collaborate on the same project, and have a track record of changes that are made to a specific file.",
+    "crumbs": [
+      "Github: a primer"
+    ]
+  },
+  {
+    "objectID": "index.html#what-is-git-and-github",
+    "href": "index.html#what-is-git-and-github",
+    "title": "Using Github for Scientific Collaboration",
+    "section": "What is Git and GitHub?",
+    "text": "What is Git and GitHub?\nOften people equate GitHub with version control, however Github is simply a online, cloud-based tool that uses the software git to store files and track changes, and git is actually the version control system. This means that git is the software that enables version control and it is possible to use other alternative online tools such as GitLab or bitbucket. However, as GitHub is widely used in industry and academia these tutorials will centre around a GitHUb interface (although the core concepts should still be relevant if using other tools).",
+    "crumbs": [
+      "Github: a primer"
+    ]
+  },
+  {
+    "objectID": "index.html#what-can-github-do",
+    "href": "index.html#what-can-github-do",
+    "title": "Using Github for Scientific Collaboration",
+    "section": "What can GitHub do?",
+    "text": "What can GitHub do?\nMost often GitHub is associated with programming, however it has uses beyond software development such as:\n\nGitHub can be used to host a webpage\nIssues and discussion can be used for project management\nIt can be used to streamline collaboration and avoid sending around multiple version of a file\n\nEspecially if used in conjunction with reproducible reports\n\nBecause GitHub is cloud-based it can act as a back-up of your work\nGitHub can be used for publishing (but not archiving) code\n\n\n\n\n\n\n\nArchiving\n\n\n\n\nCode\nAn increasing number of journals now expect you to archive the code used in your analyses when you publish a paper. Although it is possible to archive a GitHub repository as read-only it is still better to use read-only file archives, such as figshare or zenodo, as they also have a fixed doi associated with them. Both of these archives will allow you to import code directly from GitHub.\n\n\nData\nGitHub is not optimised for storing or archiving data. It may be possible to store small, unchanging files files there, but large or regularly updated files should be stored in a dedicated data archive such as osf or figshare.",
     "crumbs": [
       "Github: a primer"
     ]
@@ -14,7 +34,29 @@
     "href": "basics.html",
     "title": "1  The basics of GitHub",
     "section": "",
-    "text": "References\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.",
+    "text": "1.1 Getting started",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "basics.html#getting-started",
+    "href": "basics.html#getting-started",
+    "title": "1  The basics of GitHub",
+    "section": "",
+    "text": "1.1.1 Installing Git\n\nfor windows\nfor MacOS\n\n\n\n1.1.2 Setting up\nAuthorisations/configuring got to github\n\n\n1.1.3 Talking to git\n\nLinking with RStudio\nVSCode\nTerminal",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "basics.html#understanding-the-version-control-workflow",
+    "href": "basics.html#understanding-the-version-control-workflow",
+    "title": "1  The basics of GitHub",
+    "section": "1.2 Understanding the version control workflow",
+    "text": "1.2 Understanding the version control workflow\n\n1.2.1 Key terms\nrepo - short for repository repository - the directory or folder that is under version control local - the repository on your computer remote - the repository on GitHub commit - take a snapshot of one or more files in the repository push - send commits from the local repo to the remote repo pull - retrieve commits from the remote repo to the local repo .gitignore a file that tells git which files or types of files you don’t want to commit\nLet’s start by briefly explaining the basic workflow. On GitHub you can make repositories, which is a kind of project. Your online repository, or short repo, is called remote. To use your repository, you need to clone it locally onto your computer and it is then called local. You can write and edit R code locally on your computer. The new code is then committed and pushed back to the remote. If you follow this workflow consistently, GitHub will keep track of all the changes you make.",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
@@ -24,8 +66,8 @@
     "objectID": "basics.html#references",
     "href": "basics.html#references",
     "title": "1  The basics of GitHub",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "section": "References",
+    "text": "References",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
