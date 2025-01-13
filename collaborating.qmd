@@ -1,1 +1,41 @@
 # Collaborating with Github
+
+Key terms
+
+fork - a copy of a repo on GitHub that is connected to the original
+pull request - a system for suggesting edits and additions to the owner of the original repo from your fork
+origin - conventional name for the remote of your fork
+upstream - conventional name for the remote of the original repo
+
+GitHub is useful for developing your own code, but at some point you might want to collaborate with other people on a project. Or you might come across a GitHub repository that you want to use as a starting point for your own work. In both cases forks are the way to go.
+
+## Different ways to collaborate with github
+
+-   Branches: as you saw in (previous page) collaborators can create branches and suggest changes
+-   Forks: Forking creates a *copy* of a repository
+
+In terms of reviewing and integrating these changes we use a *pull request*
+
+## Forking a repository
+
+A fork is a copy of somebody’s GitHub repository. You can fork a repo and work independently of the original project. Or if you are collaborating with other people you can stay connected with the original repository via pull requests.
+
+You cannot directly affect (or damage) the original project.
+
+## Creating pull requests
+
+-   Think of this as a 'track changes' version of the repository. It is possible to see how the 'new' version differs from the current (`main`) version and you can see what has been added and what has been removed.
+-   Allows you to suggest/request changes before merging into `main`
+
+## Merging changes
+
+## A collaborative workflow
+
+> Insert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review
+
+## Troubleshooting
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
