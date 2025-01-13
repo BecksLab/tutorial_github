@@ -45,7 +45,7 @@
     "href": "basics.html#getting-started",
     "title": "1  The basics of GitHub",
     "section": "",
-    "text": "1.1.1 Installing Git\n\nfor windows\nfor MacOS\n\n\n\n1.1.2 Setting up\nAuthorisations/configuring got to github\n\n\n1.1.3 Talking to git\n\nLinking with RStudio\nVSCode\nTerminal",
+    "text": "1.1.1 Installing Git\n\nfor windows\nfor MacOS\n\n\n\n1.1.2 Setting up\nAuthorisations/configuring got to github\n\n\n1.1.3 Talking to git\n\nLinking with RStudio\nVSCode\nTerminal\n\n\n\n\n\n\n#94: professortocat_v2 © GitHub, Inc.",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
@@ -144,7 +144,7 @@
     "href": "collaborating.html#different-ways-to-collaborate-with-github",
     "title": "3  Collaborating with Github",
     "section": "",
-    "text": "Branches: as you saw in (previous page) collaborators can create branches and suggest changes\nForks: Forking creates a copy of a repository",
+    "text": "Branches: as you saw in (previous page) collaborators can create branches and suggest changes\nForks: Forking creates a copy of a repository\n\n\n\n\n\n\n\n#7: Forktocat © GitHub, Inc.",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
