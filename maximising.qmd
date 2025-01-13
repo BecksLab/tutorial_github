@@ -1,0 +1,9 @@
+# Making the most out of GitHub
+
+Although the main draw of GitHub is the version control functionality there are a lot of 'bonus features' that can really help enhance your research workflow.
+
+These include:
+-   Workflows (run *small* jobs remotely; NOT an hpc though)
+-   Discussion boards
+-   Project timelines/goals thing-y
+-   Using issues and PR combo to assign and work on tasks

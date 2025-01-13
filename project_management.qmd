@@ -1,0 +1,3 @@
+# GitHub for project management
+
+Here we can potentially focus in on the issue, PR and discussion board kind of thing and showcase how the features that are handy for developing software can also double up and be used in the 'normal' research workflow. Of course things like GoogleDocs allows one to also have named versions BUT GitHub has the advantage that you can have everything in one place - code and writing. But even for code it beats sending a script file back and forth between people.

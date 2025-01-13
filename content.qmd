@@ -1,0 +1,3 @@
+# Using GitHub for more than code 
+
+Focus here on *e.g.,* quarto integration and manuscript writing (reproducible reports). As well as GitHub pages - building own website but also for hosting manuscript or even a slide deck...

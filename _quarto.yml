@@ -22,15 +22,11 @@ book:
         - basics.qmd
         - branches.qmd
         - collaborating.qmd
-    - part: "Github for code"
+    - part: "Next steps"
       chapters:
-        - collaborating.qmd
-    - part: "Github for project management"
-      chapters:
-        - collaborating.qmd
-    - part: "Github for content hosting"
-      chapters:
-        - collaborating.qmd
+        - maximising.qmd
+        - project_management.qmd
+        - content.qmd
 
 
 bibliography: references.bib
