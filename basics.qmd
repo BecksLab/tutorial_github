@@ -9,7 +9,14 @@
 
 ### Setting up
 
-Authorisations/configuring got to github
+GitHub account
+
+::: {.callout-note}
+If you are a university student you qualify for a [free pro account](https://education.github.com/pack)
+:::
+
+
+Authorisations/configuring to github
 
 ### Talking to git
 
