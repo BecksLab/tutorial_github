@@ -45,7 +45,7 @@
     "href": "basics.html#getting-started",
     "title": "1  The basics of GitHub",
     "section": "",
-    "text": "1.1.1 Installing Git\n\nfor windows\nfor MacOS\n\n\n\n1.1.2 Setting up\nAuthorisations/configuring got to github\n\n\n1.1.3 Talking to git\n\nLinking with RStudio\nVSCode\nTerminal\n\n\n\n\n\n\n#94: professortocat_v2 © GitHub, Inc.",
+    "text": "1.1.1 Installing Git\n\nfor windows\nfor MacOS\n\n\n\n1.1.2 Setting up\nGitHub account\n\n\n\n\n\n\nNote\n\n\n\nIf you are a university student you qualify for a free pro account\n\n\nAuthorisations/configuring to github\n\n\n1.1.3 Talking to git\n\nLinking with RStudio\nVSCode\nTerminal\n\n\n\n\n\n\n#94: professortocat_v2 © GitHub, Inc.",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
@@ -214,6 +214,39 @@
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "maximising.html",
+    "href": "maximising.html",
+    "title": "4  Making the most out of GitHub",
+    "section": "",
+    "text": "Although the main draw of GitHub is the version control functionality there are a lot of ‘bonus features’ that can really help enhance your research workflow.\nThese include: - Workflows (run small jobs remotely; NOT an hpc though) - Discussion boards - Project timelines/goals thing-y - Using issues and PR combo to assign and work on tasks",
+    "crumbs": [
+      "Next steps",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Making the most out of GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "project_management.html",
+    "href": "project_management.html",
+    "title": "5  GitHub for project management",
+    "section": "",
+    "text": "Here we can potentially focus in on the issue, PR and discussion board kind of thing and showcase how the features that are handy for developing software can also double up and be used in the ‘normal’ research workflow. Of course things like GoogleDocs allows one to also have named versions BUT GitHub has the advantage that you can have everything in one place - code and writing. But even for code it beats sending a script file back and forth between people.",
+    "crumbs": [
+      "Next steps",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub for project management</span>"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "6  Using GitHub for more than code",
+    "section": "",
+    "text": "Focus here on e.g., quarto integration and manuscript writing (reproducible reports). As well as GitHub pages - building own website but also for hosting manuscript or even a slide deck…",
+    "crumbs": [
+      "Next steps",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using GitHub for more than code</span>"
     ]
   }
 ]
