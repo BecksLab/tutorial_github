@@ -72,5 +72,148 @@
       "Gitting Started",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The basics of GitHub</span>"
     ]
+  },
+  {
+    "objectID": "branches.html",
+    "href": "branches.html",
+    "title": "2  Understanding branches",
+    "section": "",
+    "text": "2.1 Why branches are useful\nKey Terms\nbranch - a space for making changes to code without affecting the original code merge - merge the commits on two branches merge conflict - a problem when there are two incompatible versions of a file that you are trying to merge main - conventional name of the default branch of your repo\nA branch lets you develop code, fix a problem, or test an idea without affecting the original project. A branch is created from an existing branch, usually from the main branch of the project. You can work on a branch, bravely develop code that works or does not work and it does not break the code on the main branch. Basically, you can experiment on your own.",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
+    ]
+  },
+  {
+    "objectID": "branches.html#why-branches-are-useful",
+    "href": "branches.html#why-branches-are-useful",
+    "title": "2  Understanding branches",
+    "section": "",
+    "text": "Creating dev versions of your work\nAllow collaborators to make and propose changes (more in next section)\nProvide a space to work on issues/patches\n\n\nNote that main branch was previously named master branch, but removed because of the reference to slavery. Because of this change you might find references to the old name when looking for help elsewhere.",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
+    ]
+  },
+  {
+    "objectID": "branches.html#the-basics-of-branching.",
+    "href": "branches.html#the-basics-of-branching.",
+    "title": "2  Understanding branches",
+    "section": "2.2 The basics of branching.",
+    "text": "2.2 The basics of branching.\n\nInsert a nice schematic here",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
+    ]
+  },
+  {
+    "objectID": "branches.html#troubleshooting",
+    "href": "branches.html#troubleshooting",
+    "title": "2  Understanding branches",
+    "section": "2.3 Troubleshooting",
+    "text": "2.3 Troubleshooting",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
+    ]
+  },
+  {
+    "objectID": "branches.html#references",
+    "href": "branches.html#references",
+    "title": "2  Understanding branches",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html",
+    "href": "collaborating.html",
+    "title": "3  Collaborating with Github",
+    "section": "",
+    "text": "3.1 Different ways to collaborate with github\nKey terms\nfork - a copy of a repo on GitHub that is connected to the original pull request - a system for suggesting edits and additions to the owner of the original repo from your fork origin - conventional name for the remote of your fork upstream - conventional name for the remote of the original repo\nGitHub is useful for developing your own code, but at some point you might want to collaborate with other people on a project. Or you might come across a GitHub repository that you want to use as a starting point for your own work. In both cases forks are the way to go.\nIn terms of reviewing and integrating these changes we use a pull request",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#different-ways-to-collaborate-with-github",
+    "href": "collaborating.html#different-ways-to-collaborate-with-github",
+    "title": "3  Collaborating with Github",
+    "section": "",
+    "text": "Branches: as you saw in (previous page) collaborators can create branches and suggest changes\nForks: Forking creates a copy of a repository",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#forking-a-repository",
+    "href": "collaborating.html#forking-a-repository",
+    "title": "3  Collaborating with Github",
+    "section": "3.2 Forking a repository",
+    "text": "3.2 Forking a repository\nA fork is a copy of somebody’s GitHub repository. You can fork a repo and work independently of the original project. Or if you are collaborating with other people you can stay connected with the original repository via pull requests.\nYou cannot directly affect (or damage) the original project.",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#creating-pull-requests",
+    "href": "collaborating.html#creating-pull-requests",
+    "title": "3  Collaborating with Github",
+    "section": "3.3 Creating pull requests",
+    "text": "3.3 Creating pull requests\n\nThink of this as a ‘track changes’ version of the repository. It is possible to see how the ‘new’ version differs from the current (main) version and you can see what has been added and what has been removed.\nAllows you to suggest/request changes before merging into main",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#merging-changes",
+    "href": "collaborating.html#merging-changes",
+    "title": "3  Collaborating with Github",
+    "section": "3.4 Merging changes",
+    "text": "3.4 Merging changes",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#a-collaborative-workflow",
+    "href": "collaborating.html#a-collaborative-workflow",
+    "title": "3  Collaborating with Github",
+    "section": "3.5 A collaborative workflow",
+    "text": "3.5 A collaborative workflow\n\nInsert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#troubleshooting",
+    "href": "collaborating.html#troubleshooting",
+    "title": "3  Collaborating with Github",
+    "section": "3.6 Troubleshooting",
+    "text": "3.6 Troubleshooting",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html#references",
+    "href": "collaborating.html#references",
+    "title": "3  Collaborating with Github",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
   }
 ]

@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -204,8 +223,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#different-ways-to-collaborate-with-github" id="toc-different-ways-to-collaborate-with-github" class="nav-link active" data-scroll-target="#different-ways-to-collaborate-with-github"><span class="header-section-number">3.1</span> Different ways to collaborate with github</a></li>
+  <li><a href="#forking-a-repository" id="toc-forking-a-repository" class="nav-link" data-scroll-target="#forking-a-repository"><span class="header-section-number">3.2</span> Forking a repository</a></li>
+  <li><a href="#creating-pull-requests" id="toc-creating-pull-requests" class="nav-link" data-scroll-target="#creating-pull-requests"><span class="header-section-number">3.3</span> Creating pull requests</a></li>
+  <li><a href="#merging-changes" id="toc-merging-changes" class="nav-link" data-scroll-target="#merging-changes"><span class="header-section-number">3.4</span> Merging changes</a></li>
+  <li><a href="#a-collaborative-workflow" id="toc-a-collaborative-workflow" class="nav-link" data-scroll-target="#a-collaborative-workflow"><span class="header-section-number">3.5</span> A collaborative workflow</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">3.6</span> Troubleshooting</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -229,8 +260,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Key terms</p>
+<p>fork - a copy of a repo on GitHub that is connected to the original pull request - a system for suggesting edits and additions to the owner of the original repo from your fork origin - conventional name for the remote of your fork upstream - conventional name for the remote of the original repo</p>
+<p>GitHub is useful for developing your own code, but at some point you might want to collaborate with other people on a project. Or you might come across a GitHub repository that you want to use as a starting point for your own work. In both cases forks are the way to go.</p>
+<section id="different-ways-to-collaborate-with-github" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="different-ways-to-collaborate-with-github"><span class="header-section-number">3.1</span> Different ways to collaborate with github</h2>
+<ul>
+<li>Branches: as you saw in (previous page) collaborators can create branches and suggest changes</li>
+<li>Forks: Forking creates a <em>copy</em> of a repository</li>
+</ul>
+<p>In terms of reviewing and integrating these changes we use a <em>pull request</em></p>
+</section>
+<section id="forking-a-repository" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="forking-a-repository"><span class="header-section-number">3.2</span> Forking a repository</h2>
+<p>A fork is a copy of somebody’s GitHub repository. You can fork a repo and work independently of the original project. Or if you are collaborating with other people you can stay connected with the original repository via pull requests.</p>
+<p>You cannot directly affect (or damage) the original project.</p>
+</section>
+<section id="creating-pull-requests" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="creating-pull-requests"><span class="header-section-number">3.3</span> Creating pull requests</h2>
+<ul>
+<li>Think of this as a ‘track changes’ version of the repository. It is possible to see how the ‘new’ version differs from the current (<code>main</code>) version and you can see what has been added and what has been removed.</li>
+<li>Allows you to suggest/request changes before merging into <code>main</code></li>
+</ul>
+</section>
+<section id="merging-changes" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="merging-changes"><span class="header-section-number">3.4</span> Merging changes</h2>
+</section>
+<section id="a-collaborative-workflow" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="a-collaborative-workflow"><span class="header-section-number">3.5</span> A collaborative workflow</h2>
+<blockquote class="blockquote">
+<p>Insert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review</p>
+</blockquote>
+</section>
+<section id="troubleshooting" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">3.6</span> Troubleshooting</h2>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" role="list" style="display: none">
+
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -205,8 +224,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#why-branches-are-useful" id="toc-why-branches-are-useful" class="nav-link active" data-scroll-target="#why-branches-are-useful"><span class="header-section-number">2.1</span> Why branches are useful</a></li>
+  <li><a href="#the-basics-of-branching." id="toc-the-basics-of-branching." class="nav-link" data-scroll-target="#the-basics-of-branching."><span class="header-section-number">2.2</span> The basics of branching.</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">2.3</span> Troubleshooting</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -230,8 +258,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Key Terms</p>
+<p>branch - a space for making changes to code without affecting the original code merge - merge the commits on two branches merge conflict - a problem when there are two incompatible versions of a file that you are trying to merge main - conventional name of the default branch of your repo</p>
+<section id="why-branches-are-useful" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="why-branches-are-useful"><span class="header-section-number">2.1</span> Why branches are useful</h2>
+<p>A branch lets you develop code, fix a problem, or test an idea without affecting the original project. A branch is created from an existing branch, usually from the main branch of the project. You can work on a branch, bravely develop code that works or does not work and it does not break the code on the main branch. Basically, you can experiment on your own.</p>
+<ul>
+<li>Creating dev versions of your work</li>
+<li>Allow collaborators to make and propose changes (more in next section)</li>
+<li>Provide a space to work on issues/patches</li>
+</ul>
+<blockquote class="blockquote">
+<p>Note that main branch was previously named master branch, but removed because of the reference to slavery. Because of this change you might find references to the old name when looking for help elsewhere.</p>
+</blockquote>
+</section>
+<section id="the-basics-of-branching." class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="the-basics-of-branching."><span class="header-section-number">2.2</span> The basics of branching.</h2>
+<blockquote class="blockquote">
+<p>Insert a nice schematic here</p>
+</blockquote>
+</section>
+<section id="troubleshooting" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">2.3</span> Troubleshooting</h2>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<div id="refs" role="list" style="display: none">
+
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
