@@ -1,8 +1,36 @@
 # The basics of GitHub
 
-This is a book created from markdown and executable code.
+## Getting started
 
-See @knuth84 for additional discussion of literate programming.
+### Installing Git
+
+- for windows
+- for MacOS
+
+### Setting up
+
+Authorisations/configuring got to github
+
+### Talking to git
+
+- Linking with RStudio
+- VSCode
+- Terminal
+
+## Understanding the version control workflow
+
+### Key terms
+
+repo - short for repository
+repository - the directory or folder that is under version control
+local - the repository on your computer
+remote - the repository on GitHub
+commit - take a snapshot of one or more files in the repository
+push - send commits from the local repo to the remote repo
+pull - retrieve commits from the remote repo to the local repo
+.gitignore a file that tells git which files or types of files you don’t want to commit
+
+Let’s start by briefly explaining the basic workflow. On GitHub you can make repositories, which is a kind of project. Your online repository, or short repo, is called remote. To use your repository, you need to clone it locally onto your computer and it is then called local. You can write and edit R code locally on your computer. The new code is then committed and pushed back to the remote. If you follow this workflow consistently, GitHub will keep track of all the changes you make.
 
 ## References {.unnumbered}
 
