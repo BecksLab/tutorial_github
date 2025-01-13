@@ -20,3 +20,10 @@ A branch lets you develop code, fix a problem, or test an idea without affecting
 ## The basics of branching.
 
 > Insert a nice schematic here
+
+## Troubleshooting
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
