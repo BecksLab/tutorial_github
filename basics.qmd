@@ -22,6 +22,8 @@ If you are a university student you qualify for a [free pro account](https://edu
 
 Now that you have installed `git` you need to link it to your GitHub account and make sure that the two are able to 'talk' to each other. Again there are many ways to set this up. We will discuss some of these approaches below.
 
+#### Linking with Terminal (becuase we want to move it)
+
 #### Linking with RStudio
 
 1.   **Tell RStudio where to find the git programme**: Under the Tools menu, open Global Options and go to the Git/SVN section. Then enable the version control interface and make sure RStudio knows where to find git.  For MacOS, enter the path (which you can find by typing `which git` into your terminal), for Windows, find the git program in your Program Files.
@@ -31,8 +33,6 @@ Now that you have installed `git` you need to link it to your GitHub account and
 #### Linking with VSCode
 
 To get started with the GitHub in VS Code, you'll need to create an account and install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). Once you have installed the extension, you will need to sign in. Follow the prompts to authenticate with GitHub and return to VS Code.
-
-#### Linking with Terminal
 
 
 ::: {.column-margin}
