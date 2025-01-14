@@ -19,7 +19,7 @@ A branch lets you develop code, fix a problem, or test an idea without affecting
 
 ## The basics of branching.
 
-> Insert a nice schematic here
+![A repository that has three branches alongside the `main` branch. Not that the changes that are happening on the different branches are complete independent. Not shown here (but will in a future version) but it is possible to update branches to include changes that have happened on main.](assets/workflows/branching.png)
 
 ## Troubleshooting
 
