@@ -22,7 +22,16 @@ If you are a university student you qualify for a [free pro account](https://edu
 
 Now that you have installed `git` you need to link it to your GitHub account and make sure that the two are able to 'talk' to each other. Again there are many ways to set this up. We will discuss some of these approaches below.
 
-#### Linking with Terminal (becuase we want to move it)
+#### Linking with Terminal
+
+##### Connecting over HTTPS (recommended)
+
+If you clone with HTTPS, you can cache your GitHub credentials in Git using a credential helper. For more information, see About remote repositories and Caching your GitHub credentials in Git.
+
+##### Connecting over SSH
+
+If you clone with SSH, you must generate SSH keys on each computer you use to push or pull from GitHub. For more information, see About remote repositories and Generating a new SSH key and adding it to the ssh-agent.
+
 
 #### Linking with RStudio
 
@@ -33,7 +42,6 @@ Now that you have installed `git` you need to link it to your GitHub account and
 #### Linking with VSCode
 
 To get started with the GitHub in VS Code, you'll need to create an account and install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). Once you have installed the extension, you will need to sign in. Follow the prompts to authenticate with GitHub and return to VS Code.
-
 
 ::: {.column-margin}
 ![#94: professortocat_v2 *© GitHub, Inc.*](assets/octocats/Professortocat_v2.png)
