@@ -100,7 +100,7 @@
     "href": "branches.html#the-basics-of-branching.",
     "title": "2  Understanding branches",
     "section": "2.2 The basics of branching.",
-    "text": "2.2 The basics of branching.\n\nInsert a nice schematic here",
+    "text": "2.2 The basics of branching.\n\n\n\nA repository that has three branches alongside the main branch. Not that the changes that are happening on the different branches are complete independent. Not shown here (but will in a future version) but it is possible to update branches to include changes that have happened on main.",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Understanding branches</span>"
