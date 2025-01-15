@@ -26,6 +26,30 @@ A fork is a copy of somebody’s GitHub repository. You can fork a repo and work
 
 You cannot directly affect (or damage) the original project.
 
+## Clone a repository
+Besides forking a repository, you can also clone a repository from GitHub.com to your local computer. Cloning a repository creats a full copy of all files in the repository at that point in time.
+
+### Using Git
+
+First, navigate to the directory where you want to clone the repository:
+
+cd /path/to/your/directory
+
+Next, copy the repository URL from GitHub (e.g., using HTTPS), and run the following:
+
+git clone https://github.com/BecksLab/tutorial_github.git
+
+### Using GitHub desktop
+
+To clone the repository with GitHub Desktop, click *Open with GitHub Desktop* under the *Code*.
+![](assets/screenshots/clone_github_desktop.png)
+
+### Using VScode
+
+To clone a repository in VScode, select the *Clone Repository* button in the Source Control view. Then enter the repository URL copied from GitHub or select a repository from the list to clone to your computer.
+
+![](assets/screenshots/clone_VScode.png)
+
 ## Creating pull requests
 
 -   Think of this as a 'track changes' version of the repository. It is possible to see how the 'new' version differs from the current (`main`) version and you can see what has been added and what has been removed.
