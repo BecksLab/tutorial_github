@@ -162,11 +162,22 @@
     ]
   },
   {
+    "objectID": "collaborating.html#clone-a-repository",
+    "href": "collaborating.html#clone-a-repository",
+    "title": "3  Collaborating with Github",
+    "section": "3.3 Clone a repository",
+    "text": "3.3 Clone a repository\nBesides forking a repository, you can also clone a repository from GitHub.com to your local computer. Cloning a repository creats a full copy of all files in the repository at that point in time.\n\n3.3.1 Using Git\nFirst, navigate to the directory where you want to clone the repository:\ncd /path/to/your/directory\nNext, copy the repository URL from GitHub (e.g., using HTTPS), and run the following:\ngit clone https://github.com/BecksLab/tutorial_github.git\n\n\n3.3.2 Using GitHub desktop\nTo clone the repository with GitHub Desktop, click Open with GitHub Desktop under the Code. \n\n\n3.3.3 Using VScode\nTo clone a repository in VScode, select the Clone Repository button in the Source Control view. Then enter the repository URL copied from GitHub or select a repository from the list to clone to your computer.",
+    "crumbs": [
+      "Gitting Started",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
+    ]
+  },
+  {
     "objectID": "collaborating.html#creating-pull-requests",
     "href": "collaborating.html#creating-pull-requests",
     "title": "3  Collaborating with Github",
-    "section": "3.3 Creating pull requests",
-    "text": "3.3 Creating pull requests\n\nThink of this as a ‘track changes’ version of the repository. It is possible to see how the ‘new’ version differs from the current (main) version and you can see what has been added and what has been removed.\nAllows you to suggest/request changes before merging into main",
+    "section": "3.4 Creating pull requests",
+    "text": "3.4 Creating pull requests\n\nThink of this as a ‘track changes’ version of the repository. It is possible to see how the ‘new’ version differs from the current (main) version and you can see what has been added and what has been removed.\nAllows you to suggest/request changes before merging into main",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
@@ -176,8 +187,8 @@
     "objectID": "collaborating.html#merging-changes",
     "href": "collaborating.html#merging-changes",
     "title": "3  Collaborating with Github",
-    "section": "3.4 Merging changes",
-    "text": "3.4 Merging changes",
+    "section": "3.5 Merging changes",
+    "text": "3.5 Merging changes",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
@@ -187,8 +198,8 @@
     "objectID": "collaborating.html#a-collaborative-workflow",
     "href": "collaborating.html#a-collaborative-workflow",
     "title": "3  Collaborating with Github",
-    "section": "3.5 A collaborative workflow",
-    "text": "3.5 A collaborative workflow\n\nInsert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review",
+    "section": "3.6 A collaborative workflow",
+    "text": "3.6 A collaborative workflow\n\nInsert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"
@@ -198,8 +209,8 @@
     "objectID": "collaborating.html#troubleshooting",
     "href": "collaborating.html#troubleshooting",
     "title": "3  Collaborating with Github",
-    "section": "3.6 Troubleshooting",
-    "text": "3.6 Troubleshooting",
+    "section": "3.7 Troubleshooting",
+    "text": "3.7 Troubleshooting",
     "crumbs": [
       "Gitting Started",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collaborating with Github</span>"

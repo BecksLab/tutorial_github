@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.9">
+<meta name="generator" content="quarto-1.7.11">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,7 +58,7 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-1fbc47131a039e0df962caa6cecbb2e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-73e053f00451a6823eaeab9714ac17cd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-642f5a37f5ae86e41a75a802ae529969.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -209,10 +209,16 @@ div.csl-indent {
   <ul>
   <li><a href="#different-ways-to-collaborate-with-github" id="toc-different-ways-to-collaborate-with-github" class="nav-link active" data-scroll-target="#different-ways-to-collaborate-with-github"><span class="header-section-number">3.1</span> Different ways to collaborate with github</a></li>
   <li><a href="#forking-a-repository" id="toc-forking-a-repository" class="nav-link" data-scroll-target="#forking-a-repository"><span class="header-section-number">3.2</span> Forking a repository</a></li>
-  <li><a href="#creating-pull-requests" id="toc-creating-pull-requests" class="nav-link" data-scroll-target="#creating-pull-requests"><span class="header-section-number">3.3</span> Creating pull requests</a></li>
-  <li><a href="#merging-changes" id="toc-merging-changes" class="nav-link" data-scroll-target="#merging-changes"><span class="header-section-number">3.4</span> Merging changes</a></li>
-  <li><a href="#a-collaborative-workflow" id="toc-a-collaborative-workflow" class="nav-link" data-scroll-target="#a-collaborative-workflow"><span class="header-section-number">3.5</span> A collaborative workflow</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">3.6</span> Troubleshooting</a></li>
+  <li><a href="#clone-a-repository" id="toc-clone-a-repository" class="nav-link" data-scroll-target="#clone-a-repository"><span class="header-section-number">3.3</span> Clone a repository</a>
+  <ul class="collapse">
+  <li><a href="#using-git" id="toc-using-git" class="nav-link" data-scroll-target="#using-git"><span class="header-section-number">3.3.1</span> Using Git</a></li>
+  <li><a href="#using-github-desktop" id="toc-using-github-desktop" class="nav-link" data-scroll-target="#using-github-desktop"><span class="header-section-number">3.3.2</span> Using GitHub desktop</a></li>
+  <li><a href="#using-vscode" id="toc-using-vscode" class="nav-link" data-scroll-target="#using-vscode"><span class="header-section-number">3.3.3</span> Using VScode</a></li>
+  </ul></li>
+  <li><a href="#creating-pull-requests" id="toc-creating-pull-requests" class="nav-link" data-scroll-target="#creating-pull-requests"><span class="header-section-number">3.4</span> Creating pull requests</a></li>
+  <li><a href="#merging-changes" id="toc-merging-changes" class="nav-link" data-scroll-target="#merging-changes"><span class="header-section-number">3.5</span> Merging changes</a></li>
+  <li><a href="#a-collaborative-workflow" id="toc-a-collaborative-workflow" class="nav-link" data-scroll-target="#a-collaborative-workflow"><span class="header-section-number">3.6</span> A collaborative workflow</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">3.7</span> Troubleshooting</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -263,24 +269,44 @@ div.csl-indent {
 <p>A fork is a copy of somebody’s GitHub repository. You can fork a repo and work independently of the original project. Or if you are collaborating with other people you can stay connected with the original repository via pull requests.</p>
 <p>You cannot directly affect (or damage) the original project.</p>
 </section>
-<section id="creating-pull-requests" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="creating-pull-requests"><span class="header-section-number">3.3</span> Creating pull requests</h2>
+<section id="clone-a-repository" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="clone-a-repository"><span class="header-section-number">3.3</span> Clone a repository</h2>
+<p>Besides forking a repository, you can also clone a repository from GitHub.com to your local computer. Cloning a repository creats a full copy of all files in the repository at that point in time.</p>
+<section id="using-git" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="using-git"><span class="header-section-number">3.3.1</span> Using Git</h3>
+<p>First, navigate to the directory where you want to clone the repository:</p>
+<p><code>cd /path/to/your/directory</code></p>
+<p>Next, copy the repository URL from GitHub (e.g., using HTTPS), and run the following:</p>
+<p><code>git clone https://github.com/BecksLab/tutorial_github.git</code></p>
+</section>
+<section id="using-github-desktop" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="using-github-desktop"><span class="header-section-number">3.3.2</span> Using GitHub desktop</h3>
+<p>To clone the repository with GitHub Desktop, click <em>Open with GitHub Desktop</em> under the <em>Code</em>. <img src="assets/screenshots/clone_github_desktop.png" class="img-fluid"></p>
+</section>
+<section id="using-vscode" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="using-vscode"><span class="header-section-number">3.3.3</span> Using VScode</h3>
+<p>To clone a repository in VScode, select the <em>Clone Repository</em> button in the Source Control view. Then enter the repository URL copied from GitHub or select a repository from the list to clone to your computer.</p>
+<p><img src="assets/screenshots/clone_VScode.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="creating-pull-requests" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="creating-pull-requests"><span class="header-section-number">3.4</span> Creating pull requests</h2>
 <ul>
 <li>Think of this as a ‘track changes’ version of the repository. It is possible to see how the ‘new’ version differs from the current (<code>main</code>) version and you can see what has been added and what has been removed.</li>
 <li>Allows you to suggest/request changes before merging into <code>main</code></li>
 </ul>
 </section>
-<section id="merging-changes" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="merging-changes"><span class="header-section-number">3.4</span> Merging changes</h2>
+<section id="merging-changes" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="merging-changes"><span class="header-section-number">3.5</span> Merging changes</h2>
 </section>
-<section id="a-collaborative-workflow" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="a-collaborative-workflow"><span class="header-section-number">3.5</span> A collaborative workflow</h2>
+<section id="a-collaborative-workflow" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="a-collaborative-workflow"><span class="header-section-number">3.6</span> A collaborative workflow</h2>
 <blockquote class="blockquote">
 <p>Insert basic schematic that links all of the concepts of collaborative work - upstream, changes, pull requests, review</p>
 </blockquote>
 </section>
-<section id="troubleshooting" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">3.6</span> Troubleshooting</h2>
+<section id="troubleshooting" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">3.7</span> Troubleshooting</h2>
 </section>
 <section id="references" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
