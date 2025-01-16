@@ -33,7 +33,7 @@ Besides forking a repository, you can also clone a repository from GitHub.com to
 
 First, navigate to the directory where you want to clone the repository:
 
-cd /path/to/your/directory
+`cd /path/to/your/directory`
 
 Next, copy the repository URL from GitHub (e.g., using HTTPS), and run the following:
 
