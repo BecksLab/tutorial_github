@@ -37,7 +37,7 @@ First, navigate to the directory where you want to clone the repository:
 
 Next, copy the repository URL from GitHub (e.g., using HTTPS), and run the following:
 
-git clone https://github.com/BecksLab/tutorial_github.git
+`git clone https://github.com/BecksLab/tutorial_github.git`
 
 ### Using GitHub desktop
 
